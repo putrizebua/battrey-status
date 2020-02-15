@@ -40,8 +40,9 @@
 
         <source-file src="src/android/BatteryListener.java" target-dir="src/org/apache/cordova/batterystatus" />
     </platform>
+</plugin>
 
-    <!-- ios -->
+    <!-- ios
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Battery">
